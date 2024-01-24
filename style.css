@@ -20,8 +20,6 @@ body {
   border: 15px #393e46 solid;
   display: flex;
   flex-wrap: wrap;
-  gap: 5px;
-  /* padding: 5px; */
   border-radius: 5%;
 }
 .btn {
@@ -34,16 +32,23 @@ body {
   margin: 5px;
 }
 
-#show {
+.display {
   font-size: 48px;
   justify-content: flex-end;
   flex: 1 0 auto;
   width: 100%;
   display: flex;
-  padding: 25px;
+  height: 48px;
   background-color: #faeab1;
+  padding: 0px 15px 15px 15px;
   border-radius: 0 0 15px 15px;
   align-items: center;
+}
+.ans {
+  height: 20px;
+  font-size: 20px;
+  padding: 0 15px;
+  border-radius: 0;
 }
 .num {
   background-color: #a0987b;
